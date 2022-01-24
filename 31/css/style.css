@@ -1,0 +1,319 @@
+
+body {
+    margin: 30px;
+    font-family: sans-serif;
+    color: rgba(70, 65, 65, 0.925);
+}
+
+#titol {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family:'Ubuntu', sans-serif ;
+    font-size: 400;
+    
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+}
+
+/*navegador*/
+#nav {
+    background-color: #333;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    display: flex;
+}
+
+#nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: rgb(199, 192, 192);
+    padding: 12px 30px;
+}
+
+#nav li {
+    letter-spacing: 0.05em ;
+    min-width: 160px;
+    text-align: center;
+    border-left: 2px solid black;
+    height: 30px;
+    padding-top: 10px; 
+}
+
+#nav li:last-of-type {
+    border-right: 2px solid black ;
+}
+
+#nav li:hover {
+background-color: grey;
+}
+
+#nav li a:hover {
+    color: rgb(255, 153, 153);
+}
+
+/*Imatge central*/
+
+#img_cen {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+/*Contenido*/
+
+#contenido {
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tit_con {
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: rgb(42, 153, 228);
+}
+
+/*fotos*/
+
+#fotos{
+  display: grid;
+  grid-template-columns: repeat(3,33%);
+  margin: 0% 5% 0% 5%;
+}
+
+.img_con_tot {
+    margin: 5%;
+
+}
+
+img {
+    width: 100%;
+}
+
+.img_con:hover {
+    opacity: 70%;
+}
+
+/*text fotos*/
+
+p.tit_img {
+    font-size: 20px;
+    font-style: oblique;
+    text-align: center;
+}
+
+p.text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*button*/
+
+button {
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: white;
+    background-color: #333;
+    border: 1px solid #333;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+button:hover {
+    opacity: 70%;
+}
+
+/*Footer*/
+
+hr {
+    color: rgba(129, 123, 123, 0.925);
+    width: 80%;
+
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer_list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 40px;
+        margin-bottom: 20px;
+}
+
+#footer_list ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+#footer_list li {
+    min-width: 160px;
+    text-align: center;
+}
+
+#footer_list li a{
+    text-decoration: none;
+    color: rgba(70, 65, 65, 0.925);
+}
+
+#footer_list li a:hover{
+    color: rgba(70, 65, 65, 0.466);
+}
+
+
+/*curriculum*/
+#curr {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20%;
+    color: rgba(70, 65, 65, 0.925);
+    font-family: sans-serif;
+}
+#curr hr {
+    width: 100%;
+}
+
+#curr a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+/*formulario*/
+
+#form table {
+    width: 600px;
+    height: 400px;   
+}
+
+/*Modrian*/
+
+#mond {
+    width: 1200px;
+    height: 700px;
+    display: block;
+    margin: auto;
+    margin-top: 140px;
+}
+
+#box1 {
+    width: 600px;
+    height: 175px;
+}
+
+#box2 {
+    width: 600px;
+    height: 175px;
+}
+
+#box3 {
+    width: 300px;
+    height: 350px;
+    float: left;
+}
+
+#box4 {
+    width: 300px;
+    height: 175px;
+}
+
+#box5 {
+    width: 600px;
+    height: 175px;
+}
+
+#box6 {
+    width: 300px;
+    height: 175px;
+}
+
+#box7 {
+    width: 300px;
+    height: 175px;
+}
+
+#box8 {
+    width: 300px;
+    height: 175px;
+}
+
+#box9 {
+    width: 300px;
+    height: 175px;
+}
+
+#box10 {
+    width: 300px;
+    height: 175px;
+}
+
+#box11 {
+    width: 300px;
+    height: 175px;
+}
+
+#box12 {
+    width: 300px;
+    height: 175px;
+}
+
+#row {
+    display: flex;
+    flex-direction: row;
+}
+
+#row2 {
+    display: flex;
+    flex-direction: row;
+}
+
+#row3 {
+    display: flex;
+    flex-direction: row;
+}
+
+#row4 {
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+
+#dere {
+    float: right;
+}
+
+
+
+
+
+
+
+
+

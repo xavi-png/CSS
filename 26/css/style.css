@@ -1,0 +1,91 @@
+html {
+    background-color: black;
+}
+
+#todo {
+    width: 400px;
+    height: 280px;
+    margin: auto;
+    margin-top: 25%;
+}
+
+#b1 {
+    background-color: red;
+    height: 70px;
+    width: 200px;
+    float: left;
+}
+
+#b2 {
+    background-color: blue;
+    height: 70px;
+    width: 200px;
+    float: right;
+}
+
+#b3 {
+    background-color: yellow;
+    float: left;
+    height: 140px;
+    width: 100px;
+}
+
+#b4 {
+    background-color: magenta;
+    float: left;
+    height: 70px;
+    width: 100px;
+}
+
+#b5 {
+    background-color: darkblue;
+    float: right;
+    height: 70px;
+    width: 200px;
+}
+
+#b6{
+    background-color: pink;
+    float: left;
+    height: 70px;
+    width: 100px;
+}
+
+#b7 {
+    background-color: yellow;
+    float: left;
+    height: 70px;
+    width: 100px;
+}
+
+#b8 {
+    background-color: white;
+    float: right;
+    height: 70px;
+    width: 100px;
+}
+
+#b9 {
+    background-color: purple;
+    float: left;
+    height: 70px;
+    width: 100px;
+}
+#b10 {
+    background-color: brown;
+    float: left;
+    height: 70px;
+    width: 100px;
+}
+#b11 {
+    background-color: red;
+    float: left;
+    height: 70px;
+    width: 100px;
+}
+#b12 {
+    background-color: darkred;
+    float: left;
+    height: 70px;
+    width: 100px;
+}

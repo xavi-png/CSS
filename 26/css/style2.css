@@ -1,0 +1,246 @@
+/*75.120.120.120.120 width*/
+
+#todo {
+    margin: auto;
+    width: 555px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    color: blue;
+    font-family: Arial;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+/*columna 1*/
+
+#white1 {
+    background-color: whitesmoke;
+    width: 65px;
+    height: 75px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+
+#white2 {
+    background-color: whitesmoke;
+    height: 200px;
+    width: 65px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+
+#white3 {
+    background-color: whitesmoke;
+    height: 35px;
+    width: 65px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+
+#white4 {
+    background-color: whitesmoke;
+    height: 35px;
+    width: 65px;
+    border-width: 0px 5px 0px 0px;
+    border-color: black;
+    border-style: solid;
+}
+
+/*columna2*/
+
+#orange5 {
+    background-color: orange;
+    height: 360px;
+    width: 120px;
+    border-width: 0px 5px 0px 0px;
+    border-color: black;
+    border-style: solid;
+}
+
+/*columna3*/
+
+#blue6 {
+    background-color: blue;
+    height: 120px;
+    width: 120px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+
+#orange7 {
+    background-color: orange;
+    height: 235px;
+    width: 120px;
+    border-width: 0px 5px 0px 0px;
+    border-color: black;
+    border-style: solid;
+}
+
+/*columna4*/
+
+#red8 {
+    background-color: red;
+    height: 235px;
+    width: 125px;
+    border-width: 0px 5px 5px 0px; 
+    border-color: black;
+    border-style: solid;
+}
+
+#sc1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#red9 {
+    background-color: red;
+    height: 35px;
+    width: 60px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+
+#red10 {
+    background-color: red;
+    height: 35px;
+    width: 60px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid; 
+}
+
+#sc2 {
+    display: flex;
+    flex-direction: row;
+}
+
+#blue11 {
+    background-color: blue;
+    height: 80px;
+    width: 60px;
+    border-width: 0px 5px 0px 0px;
+    border-color: black;
+    border-style: solid; 
+}
+
+#red12 {
+    background-color: red;
+    height: 80px;
+    width: 60px;
+    border-width: 0px 5px 0px 0px;
+    border-color: black;
+    border-style: solid; 
+}
+
+/*columna5*/
+
+#sc3 {
+    flex-direction: row;
+    display: flex;
+}
+
+#orange13 {
+    background-color: orange;
+    height: 80px;
+    width: 60px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid; 
+}
+
+#sc4 {
+    display: flex;
+    flex-direction: column;
+}
+
+#orange14 {
+    background-color: orange;
+    height: 37px;
+    width: 60px;
+    border-width: 0px 0px 5px 0px;
+    border-color: black;
+    border-style: solid; 
+}
+
+#red15 {
+    background-color: red;
+    height: 38px;
+    width: 60px;
+    border-width: 0px 0px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+
+#sc5 {
+    display: flex;
+    flex-direction: row;
+}
+
+#white16 {
+    background-color: whitesmoke;
+    height: 35px;
+    width: 60px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+
+#white17 {
+    background-color: whitesmoke;
+    height: 35px;
+    width: 60px;
+    border-width: 0px 0px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+
+#red18 {
+    background-color: red;
+    height: 110px;
+    width: 125px;
+    border-width: 0px 0px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+
+#sc6 {
+    display: flex;
+    flex-direction: row;
+}
+
+#orange19{
+    background-color: orange;
+    height: 120px;
+    width: 60px;
+    border-width: 0px 5px 0px 0px;
+    border-color: black;
+    border-style: solid;
+}
+
+#orange20{
+    background-color: orange;
+    height: 120px;
+    width: 60px;
+    border-width: 0px 0px 0px 0px;
+    border-color: black;
+    border-style: solid;
+}
+
+
+
+
+
+

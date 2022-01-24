@@ -1,0 +1,42 @@
+
+#tot {
+    display: grid;
+    grid-template-columns:  auto auto auto auto auto auto;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px;
+    row-gap: 1px; 
+    column-gap: 1px;
+    padding: 10px;
+}
+
+img {
+    width: 80px;
+    height: 60px;
+}
+
+.Col1 {
+    border: black 2px solid;
+    padding: 20px;
+    text-align: center;
+}
+
+.Col2 {
+    border: black 2px solid;
+    padding: 20px;
+    text-align: center;
+    grid-row: span 2;
+}
+
+.Col3 {
+    border: black 2px solid;
+    padding: 20px;
+    text-align: center;
+    grid-row: span 3;
+}
+
+.Col5 {
+    border: black 2px solid;
+    padding: 20px;
+    text-align: center;
+    grid-column: span 5;
+}
+

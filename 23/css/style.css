@@ -1,0 +1,74 @@
+table {
+    width: 70%;
+}
+
+* {
+    font-family: Arial;
+    font-size: 15px ;
+}
+
+body {
+    background-image: url("../img/IMAGEN.png")  ;
+    background-repeat: no-repeat ;
+    background-size: 100%;
+    background-position: 80%; 
+}
+
+
+/*Fondo de paragrafos*/
+.p1 {
+    background-color: lightblue;
+}
+
+.p2 {
+    background-color: blue;
+}
+
+.p3 {
+    background-color: cyan;
+}
+
+.p4 {
+    background-color: green;
+}
+
+.p5 {
+    background-color: greenyellow;
+}
+
+.p6 {
+    background-color: yellow;
+}
+
+.p7 {
+    background-color: orange;
+}
+
+.p8 {
+    background-color: orangered;
+}
+
+.p9 {
+    background-color: red;
+}
+
+.p10 {
+    background-color: purple;
+}
+
+.prim {
+    text-decoration: underline;
+}
+
+.seg {
+    text-decoration: overline ;
+}
+
+.ter{
+    font-weight: bold;
+}
+
+/*todas las p de dentro de td*/
+td p:hover {
+    background-color: grey;
+}

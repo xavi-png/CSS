@@ -1,0 +1,61 @@
+#todo {
+    height: 320px;
+    width: 100%;
+}
+
+body {
+    width: 90%;
+    margin: auto;
+}
+
+#body {
+    height: 320px;
+    width: 100%;
+}
+
+header {
+    height: 20%;
+    border-style: solid;
+    border-color: red;
+    border-radius: 5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+aside {
+    height: 103%;
+    border-style: solid;
+    border-color: green;
+    border-radius: 5%;
+    float: left;
+    width: 17%;
+}
+
+#content {
+    float: right;
+    height: 100%;
+    width: 80%;
+}
+
+nav {
+    border-style: solid;
+    border-color: lightblue;
+    border-radius: 5%;
+    height: 20%;
+    margin-bottom: 2%;
+}
+
+article {
+    border-style: solid;
+    border-color: rgb(255, 204, 0);
+    border-radius: 5%;
+    height: 80%;
+}
+
+footer {
+    border-style: solid;
+    border-color: purple;
+    border-radius: 5%;
+    height: 20%;
+    margin-top: 5%;
+}

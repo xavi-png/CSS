@@ -1,0 +1,51 @@
+#todo {
+    height: 320px;
+    width: 100%;
+}
+
+body {
+    width: 90%;
+    margin: auto;
+}
+
+#body {
+    height: 320px;
+    width: 100%;
+}
+
+header {
+    height: 20%;
+    background-color: red;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+aside {
+    height: 100%;
+    background-color: green;
+    float: left;
+    width: 18%;
+}
+
+#content {
+    float: right;
+    height: 100%;
+    width: 80%;
+}
+
+nav {
+    background-color: lightblue;
+    height: 20%;
+    margin-bottom: 2%;
+}
+
+article {
+    background-color: rgb(255, 204, 0);
+    height: 75%;
+}
+
+footer {
+    background-color: purple;
+    height: 20%;
+    margin-top: 2%;
+}
